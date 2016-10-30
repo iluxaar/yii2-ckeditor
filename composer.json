@@ -1,0 +1,27 @@
+{
+    "name": "iluxaar/yii2-ckeditor",
+    "description": "Yii2 Ckeditor",
+    "type": "yii2-extension",
+    "keywords": ["yii2","ckeditor","extension"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "iluxaar",
+            "email": "iluxaar@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/ckeditor": "4.5.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "iluxaar\\ckeditor\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
